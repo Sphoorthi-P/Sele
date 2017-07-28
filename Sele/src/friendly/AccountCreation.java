@@ -25,7 +25,7 @@ public class AccountCreation {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("keerthi.ray0610@gmail.com");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("macys89");
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("sckm ");
 		driver.findElement(By.xpath("//select[@id='month']")).click();
 		driver.findElement(By.xpath("//option[contains(.,'October')]")).click();
 		driver.findElement(By.xpath("//select[@id='day']")).click();

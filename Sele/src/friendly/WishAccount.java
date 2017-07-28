@@ -36,13 +36,13 @@ public class WishAccount {
 		driver.findElement(By.xpath("//input[@id='signup-first-name']")).sendKeys("Roopa");;
 		driver.findElement(By.xpath("//input[@id='signup-last-name']")).sendKeys("Narayan");;
 		driver.findElement(By.xpath("//input[@id='signup-email']")).sendKeys("roopanara33@gmail.com");;
-		driver.findElement(By.xpath("//input[@id='signup-password']")).sendKeys("roopa123");
+		driver.findElement(By.xpath("//input[@id='signup-password']")).sendKeys("rocnpa123");
 		driver.findElement(By.xpath("//button[@data-tid='1524']")).click();
 */
 		
 	    driver.findElement(By.xpath("//*[@id='signup-form']/div[6]/span")).click();
 		driver.findElement(By.xpath("//input[@id='login-email']")).sendKeys("roopanara33@gmail.com");
-		driver.findElement(By.xpath("//input[@id='login-password']")).sendKeys("roopa123");
+		driver.findElement(By.xpath("//input[@id='login-password']")).sendKeys("rndscjx n");
 		
 		driver.findElement(By.xpath("//button[@class='submit-btn btn']")).click(); 
 		Thread.sleep(5000);

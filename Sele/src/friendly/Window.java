@@ -1,6 +1,7 @@
 package friendly;
 
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -13,8 +14,9 @@ public class Window {
 	System.setProperty("webdriver.chrome.driver","D:\\Selenium Jars\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
     
+	
     driver.manage().window().maximize();
-
+    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     
     
     driver.get("http://www.google.co.uk/");

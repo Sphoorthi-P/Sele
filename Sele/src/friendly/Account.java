@@ -17,7 +17,7 @@ public class Account {
 		driver.findElement(By.id("u_0_4")).sendKeys("Narayan");
 		driver.findElement(By.name("reg_email__")).sendKeys("roopanara33@gmail.com");
 		driver.findElement(By.name("reg_email_confirmation__")).sendKeys("roopanara33@gmail.com");
-		driver.findElement(By.id("u_0_e")).sendKeys("roopa123");
+		driver.findElement(By.id("u_0_e")).sendKeys("nzxkj");
 		//Select date = new Select(driver.findElement(by//*[@id="month"]))
 		 Select date = new Select(driver.findElement(By.xpath("//*[@id='day']")));
 	     date.selectByVisibleText("1");
